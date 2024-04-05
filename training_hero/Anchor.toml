@@ -1,0 +1,17 @@
+[features]
+seeds = false
+[programs.devnet]
+metaplex_anchor_nft = "GkXe5pvp1127uBy6a1LaT3yXM8PRwTNBJsQsLKBENqeE"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "./wallet1.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/start.ts"
+initialize = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/initialize.ts"
+staking = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/staking.ts"
+distribution = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/distribution.ts"

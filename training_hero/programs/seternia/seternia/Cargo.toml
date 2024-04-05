@@ -1,0 +1,16 @@
+[package]
+name = "seternia"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = ["cpi"]
+
+[dependencies]
+anchor-lang = "0.29.0"
+anchor-gen = "0.3.1"
