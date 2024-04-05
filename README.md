@@ -1,5 +1,3 @@
-# seternia_realms
-
 ![Seternia Realms Logo](https://github.com/LucasNF99/seternia-realms/raw/main/public/institutional/logo.png)
 
 
